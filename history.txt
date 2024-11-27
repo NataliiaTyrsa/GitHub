@@ -1,0 +1,32 @@
+  548  git remote add origin git@github.com:NataliiaTyrsa/GitHub.git
+  549  git remote add origin https://github.com/NataliiaTyrsa/GitHub/tree/main
+  550  git remote add origin https://github.com/NataliiaTyrsa/GitHub.git
+  551  git push origin feature
+  552  git commit --amend "Добавлены изменения в feature. ammend"
+  553  git commit --amend "Added changes to branch feature. ammend"
+  554  git commit --amend -m  "Added changes to branch feature. ammend"
+  555  git checkout main
+  556  git status
+  557  git merge feature
+  558  cd ~/GIT
+  559  touch HW.txt
+  560  rm HW.txt
+  561  ls
+  562  cd GitHub
+  563  touch history.txt
+  551  git push origin feature
+  552  git commit --amend "Добавлены изменения в feature. ammend"
+  553  git commit --amend "Added changes to branch feature. ammend"
+  554  git commit --amend -m  "Added changes to branch feature. ammend"
+  555  git checkout main
+  556  git status
+  557  git merge feature
+  558  cd ~/GIT
+  559  touch HW.txt
+  560  rm HW.txt
+  561  ls
+  562  cd GitHub
+  563  touch history.txt
+  564  history >> history.txt\n
+  565  cat history.txt
+  566  HISTSIZE=10000
